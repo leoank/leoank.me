@@ -1,0 +1,34 @@
+/**
+ * Tailwind imports
+ */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/**
+ * Reset
+ */
+@import './reset';
+/**
+ * Other necessary files
+ */
+
+/*
+ * Dashboard styles
+ */
+@import './variables';
+/*
+ * Placeholder
+ */
+@import './placeholders';
+/*
+ * Base styles
+ */
+@import './base';
+/*
+ * Utils
+ */
+@import './utils';
+/*
+ * Domain
+ */
+@import './domain';

@@ -1,0 +1,50 @@
+// $dark-blue: create-color-map(#1c39bb);
+// $blue: create-color-map(#005bff);
+
+// $primary-color: (
+//     light-theme: (
+//         color: 'dark-blue',
+//         type: 'tint',
+//         key: 0,
+//         text-color: #fff,
+//     ),
+//     dark-theme: (
+//         color: 'blue',
+//         type: 'tint',
+//         key: 30,
+//         text-color: #000,
+//     ),
+// );
+
+// $primary-hover-color: (
+//     light-theme: (
+//         normal: (
+//             color: 'dark-blue',
+//             type: 'shade',
+//             key: 10,
+//             text-color: null,
+//         ),
+//         ghost: (
+//             color: 'dark-blue',
+//             type: 'shade',
+//             key: 10,
+//             text-color: null,
+//             opacity: 0.1,
+//         ),
+//     ),
+//     dark-theme: (
+//         normal: (
+//             color: 'blue',
+//             type: 'tint',
+//             key: 10,
+//             text-color: $black,
+//         ),
+//         ghost: (
+//             color: 'dark-blue',
+//             type: 'tint',
+//             key: 20,
+//             text-color: null,
+//             opacity: 0.3,
+//         ),
+//     ),
+// );

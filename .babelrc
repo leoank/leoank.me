@@ -1,0 +1,24 @@
+{
+  "presets": ["@babel/env", "@babel/preset-typescript", "@babel/preset-react"],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "@components": "./src/components",
+          "@constants": "./src/constants",
+          "@context": "./src/context",
+          "@domain": "./src/domain",
+          "@hooks": "./src/hooks",
+          "@services": "./src/services",
+          "@public": "./public"
+        }
+      }
+    ]
+  ]
+}
