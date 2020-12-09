@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": false,
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "strict": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "jsx": "preserve",
+        "experimentalDecorators": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["src/components/*"],
+            "@constants/*": ["src/constants/*"],
+            "@context/*": ["src/context/*"],
+            "@domain/*": ["src/domain/*"],
+            "@hooks/*": ["src/hooks/*"],
+            "@services/*": ["src/services/*"],
+            "@public/*": ["public/*"]
+        },
+        "types": ["react"]
+    },
+    "exclude": [
+        "src/**/*.stories.ts",
+        "src/**/*.stories.tsx",
+        "src/**/*.stories.js",
+        "src/**/*.stories.jsx",
+        "src/**/*.spec.ts",
+        "src/**/*.spec.tsx",
+        "src/**/*.test.ts",
+        "src/**/*.test.tsx"
+    ]
+}
